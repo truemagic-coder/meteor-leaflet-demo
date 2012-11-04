@@ -21,7 +21,7 @@ Template.map.rendered = ->
     window.resize(@)
 
   # create default image path
-  L.Icon.Default.imagePath = '../../leaflet'
+  L.Icon.Default.imagePath = 'packages/leaflet/images'
 
   # create a map in the map div, set the view to a given place and zoom
   window.map = L.map 'map', 

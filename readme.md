@@ -9,5 +9,8 @@
 6. open browser to http://localhost:3000
 7. double-click on the map to add a marker - click the marker to delete it
 
+## Compat
+Tested with Webkit, Firefox, IE9, iPhone, and iPad
+
 ## Demo
 http://leaflet.meteor.com
