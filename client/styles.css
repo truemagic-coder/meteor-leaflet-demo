@@ -1,0 +1,20 @@
+@media all and (max-width: 480px) {
+    /* styles for iPhone/Android landscape (and really narrow browser windows) */
+    .notice {
+      font-size: 11px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    /* styles for iPhone/Android portrait */
+  .notice {
+      font-size: 11px;
+  }
+}
+
+@media all and (max-width: 240px) {
+    /* styles for smaller devices */
+    .notice{
+      font-size: 11px;
+    }
+}
