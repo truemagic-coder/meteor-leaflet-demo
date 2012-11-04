@@ -1,3 +1,12 @@
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: Arial;
+}
+
 @media all and (max-width: 480px) {
     /* styles for iPhone/Android landscape (and really narrow browser windows) */
     .notice {
