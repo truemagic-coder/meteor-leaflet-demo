@@ -7,7 +7,7 @@
 4. replace window.cloudmade variable in client.coffee with your own cloudmade API key
 5. mrt
 6. open browser to http://localhost:3000
-7. double-click map to add markers - click the marker to delete it
+7. double-click on the map to add a marker - click the marker to delete it
 
 ## Demo
 http://leaflet.meteor.com
