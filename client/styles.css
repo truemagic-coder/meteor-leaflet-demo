@@ -7,6 +7,10 @@ h1 {
   font-family: Arial;
 }
 
+.notice {
+  text-align: center;
+}
+
 @media all and (max-width: 480px) {
   /* styles for iPhone/Android landscape (and really narrow browser windows) */
   .notice {
