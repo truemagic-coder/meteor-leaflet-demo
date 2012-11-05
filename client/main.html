@@ -9,11 +9,11 @@
 
 <template name="map">
   {{#constant}}
-    <div id="container" class="container" style="width: 600px; margin: 0 auto;">
-      <h1 style="margin-top: 0; margin-bottom: 10px; text-align: center;">Meteor Leaflet Demo</h1>
-      <div id="map" class="map" style="height: 300px; border: solid 1px black;"></div>
-      <div class="notice" style="margin-top: 10px;">Double-click on map creates a marker</div>
-      <div class="notice" style="margin-top: 5px; margin-bottom: 5px;">Click on a marker to delete it</div>
+    <div id="container" class="container">
+      <h1 class="title">Meteor Leaflet Demo</h1>
+      <div id="map" class="map"></div>
+      <div class="notice first">Double-click on map creates a marker</div>
+      <div class="notice second">Click on a marker to delete it</div>
     </div>
   {{/constant}}
 </template>

@@ -7,6 +7,31 @@ h1 {
   font-family: Arial;
 }
 
+.map {
+  height: 300px; 
+  border: solid 1px black;
+}
+
+.first {
+  margin-top: 10px;
+}
+
+.second {
+  margin-top: 5px; 
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 600px; 
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 0; 
+  margin-bottom: 10px; 
+  text-align: center;
+}
+
 .notice {
   text-align: center;
 }
