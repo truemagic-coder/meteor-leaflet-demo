@@ -14,3 +14,6 @@ Tested with Webkit, Firefox, IE9, iPhone, and iPad
 
 ## Demo
 http://leaflet.meteor.com
+
+## License
+MIT/X11
