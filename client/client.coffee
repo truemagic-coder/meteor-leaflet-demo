@@ -29,7 +29,7 @@ Template.map.rendered = ->
   .setView([49.25044, -123.137], 13)
 
   # add a CloudMade tile layer with style #997 - use your own cloudmade api key
-  L.tileLayer "http://{s}.tile.cloudmade.com/#{window.cloudmade}/997/256/{z}/{x}/{y}.png", 
+  L.tileLayer "http://{s}.tile.cloudmade.com/ccb330aa97f84031b4489de329ca8da3/997/256/{z}/{x}/{y}.png", 
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
   .addTo(window.map)
   
@@ -46,7 +46,9 @@ Template.map.rendered = ->
       marker = L.marker(mark.latlng)
       .addTo(window.map)
       .on 'click', (e) ->
-        Markers.remove({latlng: @._latlng})
+       # remove the Meteor way (by id and not selector)
+       remove_id = Markers.findOne({latlng: @._latlng})._id
+       Markers.remove({_id: remove_id})
     # when removing marker - loop through all layers on the map and remove the matching layer (marker)
     # matching based on matching lat/lon
     removed: (mark) ->

@@ -4,6 +4,9 @@
     "branch": "master"
   },
   "packages": {
-    "leaflet": {}
+    "leaflet": {
+      "git": "https://github.com/bevanhunt/meteor-leaflet.git",
+      "branch": "master" 
+    }
   }
 }

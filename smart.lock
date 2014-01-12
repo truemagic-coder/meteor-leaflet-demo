@@ -2,17 +2,20 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "16cf8a26218ae4650eb36b25ee55c2b5f6a71a31"
+    "commit": "cbde5bd4875524f3ade7f3baef417a43ec1b9474"
   },
   "dependencies": {
     "basePackages": {
-      "leaflet": {}
+      "leaflet": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "leaflet": {
         "git": "https://github.com/bevanhunt/meteor-leaflet.git",
-        "tag": "v0.1.8",
-        "commit": "8a3d0f53734e4fe3efc3e6e39aa3da0209e2ec8e"
+        "branch": "master",
+        "commit": "8afbf39bfde9186d9eb49baaf354a4afdbcd52b6"
       }
     }
   }
