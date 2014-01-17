@@ -6,6 +6,6 @@
 insecure
 preserve-inputs
 coffeescript
-leaflet
 jquery
 standard-app-packages
+leaflet

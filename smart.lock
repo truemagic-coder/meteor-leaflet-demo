@@ -6,16 +6,13 @@
   },
   "dependencies": {
     "basePackages": {
-      "leaflet": {
-        "git": "https://github.com/bevanhunt/meteor-leaflet.git",
-        "branch": "master"
-      }
+      "leaflet": {}
     },
     "packages": {
       "leaflet": {
         "git": "https://github.com/bevanhunt/meteor-leaflet.git",
-        "branch": "master",
-        "commit": "8afbf39bfde9186d9eb49baaf354a4afdbcd52b6"
+        "tag": "v0.3.2",
+        "commit": "93ec607e9805a1945002bf8c49a1080022b593f5"
       }
     }
   }
