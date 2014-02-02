@@ -6,12 +6,12 @@ Markers = new Meteor.Collection('markers')
 window.resize = (t) ->
   w = window.innerWidth
   h = window.innerHeight
-  top = t.find('#map').offsetTop
+  top = 82
   c = w - 40
   m = (h-top) - 65 
   t.find('#container').style.width = "#{c}px"
-  t.find('#map').style.height = "#{m}px" 
-
+  t.find('#map').style.height = "#{m}px"
+  
 Template.map.rendered = ->
   # resize on load
   window.resize(@)
