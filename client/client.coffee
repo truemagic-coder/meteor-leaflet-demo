@@ -2,24 +2,7 @@
 Meteor.subscribe('markers')
 Markers = new Meteor.Collection('markers')
 
-# resize the layout
-window.resize = (t) ->
-  w = window.innerWidth
-  h = window.innerHeight
-  top = 82
-  c = w - 40
-  m = (h-top) - 65 
-  t.find('#container').style.width = "#{c}px"
-  t.find('#map').style.height = "#{m}px"
-  
 Template.map.rendered = ->
-  # resize on load
-  window.resize(@)
-
-  # resize on resize of window
-  $(window).resize =>
-    window.resize(@)
-
   # create default image path
   L.Icon.Default.imagePath = 'packages/leaflet/images'
 
