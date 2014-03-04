@@ -19,11 +19,11 @@ Template.map.rendered = function() {
   var query = Markers.find();
   query.observeChanges({
     added: function(id, fields) {
-      console.log("insert marker at: ", JSON.stringify(fields.latlng));
+      // console.log("insert marker at: ", JSON.stringify(fields.latlng));
       var marker = L.marker(fields.latlng).addTo(map)
         .on('click', function(event) {
+          // console.log("remove marker: ", id);
           map.removeLayer(marker);
-          console.log("removed marker: ", id);
           Markers.remove({_id: id});
         });
     } 
