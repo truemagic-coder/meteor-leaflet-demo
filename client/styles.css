@@ -1,29 +1,19 @@
-body {
-  font-family: Arial;
-  font-size: 16px;
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+body {
   font-family: Arial;
+}
+
+#container {
+  width: 100%;
+  margin: 15px auto 0 auto;
 }
 
 .map {
-  height: 300px; 
   border: solid 1px black;
-}
-
-.first {
-  margin-top: 10px;
-}
-
-.second {
-  margin-top: 5px; 
-  margin-bottom: 5px;
-}
-
-.container {
-  width: 600px; 
-  margin: 35px auto 0 auto;
 }
 
 .title {
@@ -33,6 +23,8 @@ h1 {
 }
 
 .notice {
+  margin: 10px 0 5px 0;
+  line-height: 1.5;
   text-align: center;
 }
 
