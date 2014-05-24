@@ -1,7 +1,7 @@
 // create marker collection
-Markers = new Meteor.Collection('markers')
+Markers = new Meteor.Collection('markers');
 
-Meteor.subscribe('markers')
+Meteor.subscribe('markers');
 
 Template.map.rendered = function() {
   L.Icon.Default.imagePath = 'packages/leaflet/images';
