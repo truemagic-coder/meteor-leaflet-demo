@@ -7,8 +7,8 @@
     "packages": {
       "leaflet": {
         "git": "https://github.com/bevanhunt/meteor-leaflet.git",
-        "tag": "v0.3.6",
-        "commit": "d9e3bdb824145c1078e52945909bb1cf38724da5"
+        "tag": "v0.3.7",
+        "commit": "835e159c67288c332eb5fea8d0ca168038ebb565"
       }
     }
   }
