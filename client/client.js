@@ -17,15 +17,25 @@ Template.map.rendered = function() {
   });
 
   var query = Markers.find();
-  query.observeChanges({
-    added: function(id, fields) {
-      // console.log("insert marker at: ", JSON.stringify(fields.latlng));
-      var marker = L.marker(fields.latlng).addTo(map)
+  query.observe({
+    added: function(document) {
+      var marker = L.marker(document.latlng).addTo(map)
         .on('click', function(event) {
-          // console.log("remove marker: ", id);
           map.removeLayer(marker);
-          Markers.remove({_id: id});
+          Markers.remove({_id: document._id});
         });
-    } 
+    },
+    removed: function(oldDocument) {
+      layers = map._layers;
+      var key, val;
+      for (key in layers) {
+        val = layers[key];
+        if (val._latlng) {
+          if (val._latlng.lat === oldDocument.latlng.lat && val._latlng.lng === oldDocument.latlng.lng) {
+            map.removeLayer(val);
+          }
+        }
+      }
+    }
   });
 };
