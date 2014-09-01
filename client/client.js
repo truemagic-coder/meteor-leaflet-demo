@@ -12,7 +12,8 @@ Template.map.rendered = function() {
 
   L.tileLayer.provider('Thunderforest.Outdoors').addTo(map);
 
-  if (Markers.find().count() === 0) {
+  // Initialize Map with "M" shape of map icons
+  if (Markers.find().count() === 0) { // Run once when loading
     Markers.insert({_id: '5WHtPcr3EiWwidgfQ', latlng: {lat: '49.240914053166065', lng: '-123.1845474243164'}}),
     Markers.insert({_id: 'vBmSDS4SGoe2kmLhf', latlng: {lat: '49.248086284855496', lng: '-123.18094253540039'}}),
     Markers.insert({_id: 'vBmSDS4SGoe2kmLhf', latlng: {lat: '49.255593598772236', lng: '-123.17596435546876'}}),
