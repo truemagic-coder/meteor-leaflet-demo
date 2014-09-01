@@ -1,6 +1,4 @@
 {
   "meteor": {},
-  "packages": {
-    "leaflet": {}
-  }
+  "packages": {}
 }

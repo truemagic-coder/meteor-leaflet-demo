@@ -4,6 +4,7 @@
 # but you can also edit it by hand.
 
 insecure
-jquery
 standard-app-packages
-leaflet
+mrt:leaflet
+jquery
+
