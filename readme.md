@@ -23,12 +23,6 @@ Leaflet for Meteor Demo
   cd meteor-leaflet-demo/
   ```
 
-3. Install the Leaflet Package [link](https://atmospherejs.com/mrt/leaflet-0.6.4)
-
-```
-meteor add mrt:leaflet-0.6.4
-```
-
 3. Run Meteor
 
   ```
@@ -44,6 +38,11 @@ Tested with Webkit, Firefox, IE9, iPhone, and iPad
 
 ## Demo
 http://leaflet.meteor.com
+
+## Packages
+
+Mrt:Leaflet Package [link](https://atmospherejs.com/mrt/leaflet-0.6.4)
+Jquery [link](https://atmospherejs.com/meteor/jquery)
 
 ## License
 MIT/X11
