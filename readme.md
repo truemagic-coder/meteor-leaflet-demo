@@ -14,7 +14,7 @@ Leaflet for Meteor Demo
 1. Clone the repo on your computer
 
   ```
-  git clone https://github.com/bevanhunt/meteor-leaflet-demo
+  git clone https://github.com/kyleking/meteor-leaflet-demo
   ```
 
 2. Change to the working directory
@@ -22,6 +22,12 @@ Leaflet for Meteor Demo
   ```
   cd meteor-leaflet-demo/
   ```
+
+3. Install the Leaflet Package [link](https://atmospherejs.com/mrt/leaflet-0.6.4)
+
+```
+meteor add mrt:leaflet-0.6.4
+```
 
 3. Run Meteor
 
