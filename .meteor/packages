@@ -6,5 +6,4 @@
 insecure
 standard-app-packages
 jquery
-
-mrt:leaflet-0.6.4
+mrt:leaflet

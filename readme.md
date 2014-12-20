@@ -41,7 +41,7 @@ http://leaflet.meteor.com
 
 ## Packages
 
-Mrt:Leaflet Package [link](https://atmospherejs.com/mrt/leaflet-0.6.4)
+Mrt:Leaflet Package [link](https://atmospherejs.com/mrt/leaflet)
 Jquery [link](https://atmospherejs.com/meteor/jquery)
 
 ## License
