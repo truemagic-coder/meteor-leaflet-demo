@@ -9,6 +9,3 @@ WebApp.connectHandlers.use(function(req, res, next) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   return next();
 });
-
-// setup local CORS for Cordova testing
-BrowserPolicy.content.allowOriginForAll("http://meteor.local");
