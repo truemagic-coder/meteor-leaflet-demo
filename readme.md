@@ -8,7 +8,7 @@
 5. double-click on the map to add a marker - click the marker to delete it
 
 ## Compat
-Tested with Webkit, Firefox, IE9, iPhone, and iPad
+Tested with Webkit, Firefox, IE9, iPhone, iPad, and Android
 
 ## Demo
 http://leaflet.meteor.com
