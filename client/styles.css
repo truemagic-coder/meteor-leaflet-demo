@@ -17,8 +17,8 @@ body {
 }
 
 .title {
-  margin-top: 0; 
-  margin-bottom: 10px; 
+  margin-top: 0;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -33,6 +33,10 @@ body {
   .notice {
     font-size: 11px;
   }
+
+  .map {
+    height: 500px;
+  }
 }
 
 @media all and (max-width: 320px) {
@@ -40,6 +44,11 @@ body {
   .notice {
       font-size: 11px;
   }
+
+  .map {
+      /* this may need to be adjusted for smaller devices */
+      height: 500px;
+    }
 }
 
 @media all and (max-width: 240px) {
@@ -47,4 +56,9 @@ body {
   .notice{
     font-size: 11px;
   }
+
+  .map {
+      /* this may need to be adjusted for smaller devices */
+      height: 500px;
+    }
 }
