@@ -6,4 +6,4 @@
 - iPhone: meteor run ios
 
 ## License
-MIT/X11
+MIT
