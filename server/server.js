@@ -1,11 +1,11 @@
-var GeoJSON = Meteor.npmRequire('geojson');
+var tj = Meteor.npmRequire('togeojson');
+var jsdom = Meteor.npmRequire('jsdom').jsdom;
 
 Meteor.methods({
    'getGeoJSON': function getGeoJSON() {
-     var points = [
-       { name: 'Location A', category: 'Store', street: 'Market', lat: 49.25044, lng: -123.137 }
-     ];
-     return GeoJSON.parse(points, {Point: ['lat', 'lng']});
+     var kml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><kml xmlns=\"http://www.opengis.net/kml/2.2\"><Placemark><name>Simple placemark</name><Point><coordinates>-123.137,49.25044,0</coordinates></Point></Placemark>";
+     var converted = jsdom(kml);
+     return tj.kml(converted);
    }
  });
 

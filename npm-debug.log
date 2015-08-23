@@ -1,0 +1,270 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/bevan/.nvm/v0.10.36/bin/node',
+1 verbose cli   '/Users/bevan/.nvm/v0.10.36/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jsdom',
+1 verbose cli   '3.1.0',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ 'jsdom', null ]
+5 verbose cache add name=undefined spec="jsdom" args=["jsdom",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jsdom',
+6 verbose parsed url   path: 'jsdom',
+6 verbose parsed url   href: 'jsdom' }
+7 verbose cache add [ '3.1.0', null ]
+8 verbose cache add name=undefined spec="3.1.0" args=["3.1.0",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '3.1.0',
+9 verbose parsed url   path: '3.1.0',
+9 verbose parsed url   href: '3.1.0' }
+10 silly lockFile 1fbe4fcb-jsdom jsdom
+11 verbose lock jsdom /Users/bevan/.npm/1fbe4fcb-jsdom.lock
+12 silly lockFile c6212c84-3-1-0 3.1.0
+13 verbose lock 3.1.0 /Users/bevan/.npm/c6212c84-3-1-0.lock
+14 silly lockFile 1fbe4fcb-jsdom jsdom
+15 silly lockFile 1fbe4fcb-jsdom jsdom
+16 silly lockFile c6212c84-3-1-0 3.1.0
+17 silly lockFile c6212c84-3-1-0 3.1.0
+18 verbose addNamed [ 'jsdom', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile be40d96d-jsdom jsdom@
+21 verbose lock jsdom@ /Users/bevan/.npm/be40d96d-jsdom.lock
+22 verbose addNamed [ '3.1.0', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 1ea9945c-3-1-0 3.1.0@
+25 verbose lock 3.1.0@ /Users/bevan/.npm/1ea9945c-3-1-0.lock
+26 silly addNameRange { name: 'jsdom', range: '*', hasData: false }
+27 silly addNameRange { name: '3.1.0', range: '*', hasData: false }
+28 verbose request where is /3.1.0
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 7f0d5d34c9c8df3a
+31 verbose url raw /3.1.0
+32 verbose url resolving [ 'https://registry.npmjs.org/', './3.1.0' ]
+33 verbose url resolved https://registry.npmjs.org/3.1.0
+34 verbose request where is https://registry.npmjs.org/3.1.0
+35 info trying registry request attempt 1 at 12:22:36
+36 http GET https://registry.npmjs.org/3.1.0
+37 verbose request where is /jsdom
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /jsdom
+40 verbose url resolving [ 'https://registry.npmjs.org/', './jsdom' ]
+41 verbose url resolved https://registry.npmjs.org/jsdom
+42 verbose request where is https://registry.npmjs.org/jsdom
+43 info trying registry request attempt 1 at 12:22:36
+44 verbose etag "CJUI1HZTCWHLZ3ZU147PNKL7W"
+45 http GET https://registry.npmjs.org/jsdom
+46 http 304 https://registry.npmjs.org/jsdom
+47 silly registry.get cb [ 304,
+47 silly registry.get   { date: 'Sun, 23 Aug 2015 19:22:36 GMT',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     'cache-control': 'max-age=60',
+47 silly registry.get     etag: '"CJUI1HZTCWHLZ3ZU147PNKL7W"',
+47 silly registry.get     age: '0',
+47 silly registry.get     connection: 'keep-alive',
+47 silly registry.get     'x-served-by': 'cache-lax1420-LAX',
+47 silly registry.get     'x-cache': 'HIT',
+47 silly registry.get     'x-cache-hits': '1',
+47 silly registry.get     'x-timer': 'S1440357756.736127,VS0,VE195',
+47 silly registry.get     vary: 'Accept' } ]
+48 verbose etag https://registry.npmjs.org/jsdom from cache
+49 silly addNameRange number 2 { name: 'jsdom', range: '*', hasData: true }
+50 silly addNameRange versions [ 'jsdom',
+50 silly addNameRange   [ '0.0.1',
+50 silly addNameRange     '0.1.2',
+50 silly addNameRange     '0.1.4',
+50 silly addNameRange     '0.1.5',
+50 silly addNameRange     '0.1.6',
+50 silly addNameRange     '0.1.7',
+50 silly addNameRange     '0.1.8',
+50 silly addNameRange     '0.1.9',
+50 silly addNameRange     '0.1.10',
+50 silly addNameRange     '0.1.11',
+50 silly addNameRange     '0.1.12',
+50 silly addNameRange     '0.1.13',
+50 silly addNameRange     '0.1.15',
+50 silly addNameRange     '0.1.16',
+50 silly addNameRange     '0.1.17',
+50 silly addNameRange     '0.1.18',
+50 silly addNameRange     '0.1.19',
+50 silly addNameRange     '0.1.20',
+50 silly addNameRange     '0.1.21',
+50 silly addNameRange     '0.1.22',
+50 silly addNameRange     '0.1.23',
+50 silly addNameRange     '0.2.0',
+50 silly addNameRange     '0.2.1',
+50 silly addNameRange     '0.2.2',
+50 silly addNameRange     '0.2.3',
+50 silly addNameRange     '0.2.4',
+50 silly addNameRange     '0.2.5',
+50 silly addNameRange     '0.2.6',
+50 silly addNameRange     '0.2.7',
+50 silly addNameRange     '0.2.8',
+50 silly addNameRange     '0.2.9',
+50 silly addNameRange     '0.2.10',
+50 silly addNameRange     '0.2.11',
+50 silly addNameRange     '0.2.12',
+50 silly addNameRange     '0.2.13',
+50 silly addNameRange     '0.2.14',
+50 silly addNameRange     '0.2.15',
+50 silly addNameRange     '0.2.16',
+50 silly addNameRange     '0.2.17',
+50 silly addNameRange     '0.2.18',
+50 silly addNameRange     '0.2.19',
+50 silly addNameRange     '0.3.0',
+50 silly addNameRange     '0.3.1',
+50 silly addNameRange     '0.3.2',
+50 silly addNameRange     '0.3.3',
+50 silly addNameRange     '0.3.4',
+50 silly addNameRange     '0.4.0',
+50 silly addNameRange     '0.4.1',
+50 silly addNameRange     '0.4.2',
+50 silly addNameRange     '0.5.0',
+50 silly addNameRange     '0.5.1',
+50 silly addNameRange     '0.5.2',
+50 silly addNameRange     '0.5.3',
+50 silly addNameRange     '0.5.4',
+50 silly addNameRange     '0.5.5',
+50 silly addNameRange     '0.5.6',
+50 silly addNameRange     '0.5.7',
+50 silly addNameRange     '0.6.0',
+50 silly addNameRange     '0.6.1',
+50 silly addNameRange     '0.6.2',
+50 silly addNameRange     '0.6.3',
+50 silly addNameRange     '0.6.4',
+50 silly addNameRange     '0.6.5',
+50 silly addNameRange     '0.7.0',
+50 silly addNameRange     '0.8.0',
+50 silly addNameRange     '0.8.1',
+50 silly addNameRange     '0.8.2',
+50 silly addNameRange     '0.8.3',
+50 silly addNameRange     '0.8.4',
+50 silly addNameRange     '0.8.5',
+50 silly addNameRange     '0.8.6',
+50 silly addNameRange     '0.8.7',
+50 silly addNameRange     '0.8.8',
+50 silly addNameRange     '0.8.9',
+50 silly addNameRange     '0.8.10',
+50 silly addNameRange     '0.8.11',
+50 silly addNameRange     '0.9.0',
+50 silly addNameRange     '0.10.0',
+50 silly addNameRange     '0.10.1',
+50 silly addNameRange     '0.10.2',
+50 silly addNameRange     '0.10.3',
+50 silly addNameRange     '0.10.4',
+50 silly addNameRange     '0.10.5',
+50 silly addNameRange     '0.10.6',
+50 silly addNameRange     '0.11.0',
+50 silly addNameRange     '0.11.1',
+50 silly addNameRange     '1.0.0-pre.1',
+50 silly addNameRange     '1.0.0-pre.3',
+50 silly addNameRange     '1.0.0-pre.4',
+50 silly addNameRange     '1.0.0-pre.5',
+50 silly addNameRange     '1.0.0-pre.6',
+50 silly addNameRange     '1.0.0-pre.7',
+50 silly addNameRange     '1.0.0',
+50 silly addNameRange     '1.0.1',
+50 silly addNameRange     '1.0.2',
+50 silly addNameRange     '1.0.3',
+50 silly addNameRange     '1.1.0',
+50 silly addNameRange     '1.2.0',
+50 silly addNameRange     '1.2.1',
+50 silly addNameRange     '1.2.2',
+50 silly addNameRange     '1.2.3',
+50 silly addNameRange     '1.3.0',
+50 silly addNameRange     '1.3.1',
+50 silly addNameRange     '1.3.2',
+50 silly addNameRange     '1.4.0',
+50 silly addNameRange     '1.4.1',
+50 silly addNameRange     '1.5.0',
+50 silly addNameRange     '2.0.0',
+50 silly addNameRange     '3.0.0',
+50 silly addNameRange     '3.0.1',
+50 silly addNameRange     '3.0.2',
+50 silly addNameRange     '3.0.3',
+50 silly addNameRange     '3.1.0',
+50 silly addNameRange     '3.1.1',
+50 silly addNameRange     '3.1.2',
+50 silly addNameRange     '4.0.0',
+50 silly addNameRange     '4.0.1',
+50 silly addNameRange     '4.0.2',
+50 silly addNameRange     '4.0.3',
+50 silly addNameRange     '4.0.4',
+50 silly addNameRange     '4.0.5',
+50 silly addNameRange     '4.1.0',
+50 silly addNameRange     '4.2.0',
+50 silly addNameRange     '4.3.0',
+50 silly addNameRange     '4.4.0',
+50 silly addNameRange     '4.5.0',
+50 silly addNameRange     '4.5.1',
+50 silly addNameRange     '5.0.0',
+50 silly addNameRange     '5.0.1',
+50 silly addNameRange     '4.5.2',
+50 silly addNameRange     '5.1.0',
+50 silly addNameRange     '5.2.0',
+50 silly addNameRange     '5.3.0',
+50 silly addNameRange     '5.4.0',
+50 silly addNameRange     '5.4.1',
+50 silly addNameRange     '5.4.2',
+50 silly addNameRange     '5.4.3',
+50 silly addNameRange     '5.5.0',
+50 silly addNameRange     '5.6.0',
+50 silly addNameRange     '5.6.1',
+50 silly addNameRange     '6.0.0',
+50 silly addNameRange     '6.0.1',
+50 silly addNameRange     '6.1.0' ] ]
+51 verbose addNamed [ 'jsdom', '6.1.0' ]
+52 verbose addNamed [ '6.1.0', '6.1.0' ]
+53 silly lockFile c34b70f3-jsdom-6-1-0 jsdom@6.1.0
+54 verbose lock jsdom@6.1.0 /Users/bevan/.npm/c34b70f3-jsdom-6-1-0.lock
+55 silly lockFile c34b70f3-jsdom-6-1-0 jsdom@6.1.0
+56 silly lockFile c34b70f3-jsdom-6-1-0 jsdom@6.1.0
+57 silly lockFile be40d96d-jsdom jsdom@
+58 silly lockFile be40d96d-jsdom jsdom@
+59 http 404 https://registry.npmjs.org/3.1.0
+60 silly registry.get cb [ 404,
+60 silly registry.get   { 'content-type': 'application/json',
+60 silly registry.get     'cache-control': 'max-age=0',
+60 silly registry.get     'content-length': '2',
+60 silly registry.get     'accept-ranges': 'bytes',
+60 silly registry.get     date: 'Sun, 23 Aug 2015 19:22:37 GMT',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     age: '0',
+60 silly registry.get     connection: 'keep-alive',
+60 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+60 silly registry.get     'x-cache': 'MISS',
+60 silly registry.get     'x-cache-hits': '0',
+60 silly registry.get     'x-timer': 'S1440357756.732393,VS0,VE336' } ]
+61 silly lockFile 1ea9945c-3-1-0 3.1.0@
+62 silly lockFile 1ea9945c-3-1-0 3.1.0@
+63 error 404 Not Found
+63 error 404
+63 error 404 '3.1.0' is not in the npm registry.
+63 error 404 You should bug the author to publish it
+63 error 404
+63 error 404 Note that you can also install from a
+63 error 404 tarball, folder, or http url, or git url.
+64 error System Darwin 14.0.0
+65 error command "/Users/bevan/.nvm/v0.10.36/bin/node" "/Users/bevan/.nvm/v0.10.36/bin/npm" "install" "jsdom" "3.1.0" "-g"
+66 error cwd /Users/bevan/meteor/meteor-leaflet-demo
+67 error node -v v0.10.36
+68 error npm -v 1.4.28
+69 error code E404
+70 verbose exit [ 1, true ]
