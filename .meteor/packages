@@ -9,3 +9,7 @@ insecure
 bevanhunt:leaflet
 webapp
 browser-policy
+meteorhacks:npm
+
+
+npm-container
