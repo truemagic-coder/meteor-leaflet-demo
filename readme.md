@@ -1,4 +1,4 @@
-# Leaflet for Meteor Demo for GeoJSON
+# Leaflet for Meteor Demo for KML
 
 ## Demos
 - Web: meteor run
