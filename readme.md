@@ -1,7 +1,7 @@
 # Leaflet for Meteor Demo
 
 ## Demos
-- Web: meteor run or http://leaflet.meteor.com
+- Web: meteor run
 - Android: meteor run android
 - iPhone: meteor run ios
 
