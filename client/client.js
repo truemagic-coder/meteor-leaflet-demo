@@ -18,7 +18,7 @@ Template.map.rendered = function() {
     doubleClickZoom: false
   }).setView([49.25044, -123.137], 13);
 
-  L.tileLayer.provider('Thunderforest.Outdoors').addTo(map);
+  L.tileLayer.provider('Stamen.Watercolor').addTo(map);
 
   map.on('dblclick', function(event) {
     Markers.insert({latlng: event.latlng});
