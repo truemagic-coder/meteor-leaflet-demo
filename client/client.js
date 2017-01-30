@@ -12,7 +12,7 @@ var Markers = new Meteor.Collection('markers');
 Meteor.subscribe('markers');
 
 Template.map.rendered = function() {
-  L.Icon.Default.imagePath = 'packages/bevanhunt_leaflet/images/';
+  L.Icon.Default.imagePath = '/packages/bevanhunt_leaflet/images/';
 
   var map = L.map('map', {
     doubleClickZoom: false
