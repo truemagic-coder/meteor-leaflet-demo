@@ -24,6 +24,10 @@ Template.map.rendered = function() {
     Markers.insert({latlng: event.latlng});
   });
 
+  // add clustermarkers
+  var markers = L.markerClusterGroup();
+  map.addLayer(markers);
+
   var query = Markers.find();
   query.observe({
     added: function (document) {
@@ -32,6 +36,7 @@ Template.map.rendered = function() {
           map.removeLayer(marker);
           Markers.remove({_id: document._id});
         });
+       markers.addLayer(marker);
     },
     removed: function (oldDocument) {
       layers = map._layers;
