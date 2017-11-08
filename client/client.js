@@ -31,9 +31,8 @@ Template.map.rendered = function() {
   var query = Markers.find();
   query.observe({
     added: function (document) {
-      var marker = L.marker(document.latlng).addTo(map)
+      var marker = L.marker(document.latlng)
         .on('click', function(event) {
-          map.removeLayer(marker);
           Markers.remove({_id: document._id});
         });
        markers.addLayer(marker);
@@ -45,7 +44,7 @@ Template.map.rendered = function() {
         val = layers[key];
         if (val._latlng) {
           if (val._latlng.lat === oldDocument.latlng.lat && val._latlng.lng === oldDocument.latlng.lng) {
-            map.removeLayer(val);
+            markers.removeLayer(val);
           }
         }
       }
