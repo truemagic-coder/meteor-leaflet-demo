@@ -1,7 +1,7 @@
 # Leaflet for Meteor Demo
 
 ## Demo
-meteor run
+meteor
 
 ## License
 MIT
